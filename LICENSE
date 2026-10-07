@@ -1,0 +1,48 @@
+DecideGen Dataset -- License
+============================
+
+The de-identified, derived records released in this repository
+(the "Dataset", including behavioural records, user-profile attributes,
+historical-post metadata, and event-level statistics) are made available
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+  (c) 2026 [Copyright Holders]
+
+  Full legal code:        https://creativecommons.org/licenses/by/4.0/legalcode
+  Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+
+  Share  -- copy and redistribute the material in any medium or format.
+  Adapt  -- remix, transform, and build upon the material for any purpose,
+            even commercially.
+
+Under the following terms:
+
+  Attribution -- You must give appropriate credit, provide a link to the
+                 license, and indicate if changes were made. You may do so in
+                 any reasonable manner, but not in any way that suggests the
+                 licensor endorses you or your use.
+
+  No additional restrictions -- You may not apply legal terms or technological
+                 measures that legally restrict others from doing anything the
+                 license permits.
+
+------------------------------------------------------------
+IMPORTANT -- SCOPE OF THIS LICENSE
+------------------------------------------------------------
+
+This license applies ONLY to the de-identified, derived records that are
+actually distributed in this repository.
+
+It does NOT apply to, and grants no rights over, the underlying raw content
+originating from the source platforms (Weibo / Twitter and related media).
+Those materials remain subject to their respective platform terms of service
+and their original authors' rights. Raw platform content is NOT redistributed
+here; it has been replaced by de-identified derived records (e.g., abstracted
+action types, anonymized identifiers, and derived statistics).
+
+Redistributors of the Dataset must not attempt to re-identify any individual
+or re-link the records to the original platform content or accounts.
+
+If you use the Dataset, please cite the associated paper (see README).
