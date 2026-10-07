@@ -6,7 +6,7 @@
 Companion dataset for **[Paper title]** — *[Journal]*, [Year].
 The corpus supports the study of how *individual* user behaviour aggregates into *collective* information propagation on social media: it links each observed action to the actor's profile, historical expressions, and the upstream content it derives from, and provides the supervisory labels used to train the **DecideGen** agents and drive the **Context-Constrained Social Simulator (CCSS)**.
 
-Code released alongside this dataset: **[decidegen-code]** (`[code-repository URL]`).
+Code released alongside this dataset: **[decidegen-code]** (`[[code-repository URL]](https://github.com/xiangru-yin/decidegen-code)`).
 
 ---
 
@@ -165,6 +165,6 @@ If you use this dataset, please cite the paper:
 
 ## Contact
 
-**[Corresponding author]** — **[email]** · **[affiliation]**
+**[Xiangru Yin]** — **[xiangruyin@stu.xjtu.edu.cn]** · **[Xi'an Jiaotong University College of Artificial Intelligence]**
 
 *(Placeholders in `[brackets]` are to be filled in before public release.)*
