@@ -46,7 +46,7 @@ All user identifiers are **anonymised** (stable hashes); the mapping back to pla
 |---|---:|
 | Public events | **174** (149 Chinese · 25 English) |
 | Users with profiles | **130,914** |
-| Observed behavioural records | **202,460** |
+| Observed behavioural records | **209,460** |
 | Historical posts | **4,469,501** (≈ 4.47 M) |
 | Directed follow edges | **22,954,692** |
 | Historical posts per user | up to **50** |
