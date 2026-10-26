@@ -3,10 +3,10 @@
 [![status](https://img.shields.io/badge/status-prepared%20·%20release%20deferred-orange)]()
 [![license](https://img.shields.io/badge/license-%5Bto%20be%20set%5D-lightgrey)]()
 
-Companion dataset for **[Paper title]** — *[Journal]*, [Year].
+Companion dataset for **Simulating Social Media as It Unfolds: Faithful Collective Dynamics Emerge from Individual Behavioural Alignment** — *submitted to Science Advances*, 2026.
 The corpus supports the study of how *individual* user behaviour aggregates into *collective* information propagation on social media: it links each observed action to the actor's profile, historical expressions, and the upstream content it derives from, and provides the supervisory labels used to train the **DecideGen** agents and drive the **Context-Constrained Social Simulator (CCSS)**.
 
-Code released alongside this dataset: **[decidegen-code]** (`[[code-repository URL]](https://github.com/xiangru-yin/decidegen-code)`).
+Code released alongside this dataset: **[decidegen-code](https://github.com/xiangru-yin/decidegen-code)**.
 
 ---
 
@@ -15,8 +15,8 @@ Code released alongside this dataset: **[decidegen-code]** (`[[code-repository U
 This repository is **not yet publicly downloadable**.
 
 - The dataset has been **prepared and assembled**, and de-identification is being finalised.
-- **During peer review**, private access links are provided to the editors and reviewers **on request** (see [Access](#access)).
-- **Upon publication**, the released artefacts will be made available through a public repository at **[data-repository URL] ([DOI])**.
+- **During peer review:** request private access links from the corresponding author, **Ping Wei**, at **pingwei@xjtu.edu.cn**.
+- **Upon publication**, the released artefacts will be made available at **[https://github.com/xiangru-yin/decidegen-dataset](https://github.com/xiangru-yin/decidegen-dataset)**.
 
 **What can and cannot be redistributed.** This corpus is built from *publicly available* Weibo and Twitter records collected under the respective platform terms of service. **Raw platform content (verbatim posts, comments, reposts, profile pages) cannot be redistributed**, because that would violate the platforms' terms and expose personal data. The released artefacts are therefore **derived, de-identified records** (see [Contents](#contents)).
 
@@ -49,7 +49,7 @@ All user identifiers are **anonymised** (stable hashes); the mapping back to pla
 | Observed behavioural records | **209,460** |
 | Historical posts | **4,469,501** (≈ 4.47 M) |
 | Directed follow edges | **22,954,692** |
-| Historical posts per user | up to **50** |
+| Historical posts per user | **~50 (median, after temporal filtering)** |
 | Profile fields | **22** |
 | Historical-post fields | **28** |
 | Behavioural-record fields | **7** |
@@ -123,7 +123,7 @@ Sentiment labels: **3 classes**. English text is scored with `cardiffnlp/twitter
 
 1. **Collection & sampling** — posts, reposts, comments and their nested interaction relations are collected per event; content sampling is applied to large Weibo events.
 2. **Traceability** — *content relations* (post → derivative content) and *user–action relations* (actor → interaction) are retained, yielding chronological behavioural sequences traceable to their propagation branches.
-3. **Profiles & history** — 22-field profiles, following relations, and up to 50 temporally filtered historical posts per user.
+3. **Profiles & history** — 22-field profiles, following relations, and recent historical posts per user (median ~50, temporally filtered).
 4. **Supervision** — candidate action paths are reconstructed under platform-specific recommendation/ranking rules and filtered for reachability and outcome consistency.
 
 Full details are in the paper's **Materials and Methods** and the **Supplementary Methods**.
@@ -135,15 +135,15 @@ Full details are in the paper's **Materials and Methods** and the **Supplementar
 - **Public data only.** Weibo and Twitter records that are publicly available; collected under the respective platform terms of service.
 - **Anonymisation.** All user identifiers are replaced by stable hashes before analysis and before release; no raw identifiers are redistributed.
 - **No human-subjects intervention.** The study involves no laboratory animals and no experimental intervention with human participants.
-- **Data licence:** **[e.g. CC BY 4.0 — to be confirmed]**. Raw platform content is **excluded** from this licence because it cannot be redistributed.
-- Governed by the institutional guidelines of **[Xi'an Jiaotong University]**.
+- **Data licence:** **[CC BY 4.0]**. Raw platform content is **excluded** from this licence because it cannot be redistributed.
+- Governed by the institutional guidelines of **Xi'an Jiaotong University**.
 
 ---
 
 ## Access
 
 - **During peer review:** request private access links from the corresponding author, **[corresponding author]**, at **[email]**.
-- **Upon publication:** available through **[data-repository URL] ([DOI])**.
+- **Upon publication:** available at **[https://github.com/xiangru-yin/decidegen-dataset](https://github.com/xiangru-yin/decidegen-dataset)**.
 
 ---
 
@@ -152,19 +152,21 @@ Full details are in the paper's **Materials and Methods** and the **Supplementar
 If you use this dataset, please cite the paper:
 
 ```bibtex
-@article{[key],
-  title   = {[Paper title]},
-  author  = {[Author list]},
-  journal = {[Journal]},
-  year    = {[Year]},
-  doi     = {[DOI]}
-}
+@article{yin2026decidegen,
+  title   = {Simulating Social Media as It Unfolds: Faithful Collective Dynamics Emerge from Individual Behavioural Alignment},
+  author  = {Yin, Xiangru and Li, Huan and Tong, Shiyu and Chen, Zizhao and Ran, Shuyang and Zheng, Nanning and Wei, Ping},
+  journal = {Science Advances},
+  year    = {2026},
+  note    = {Under review},
+  doi     = {[DOI — to be added upon publication]}
 ```
 
 ---
 
 ## Contact
 
-**[Xiangru Yin]** — **[xiangruyin@stu.xjtu.edu.cn]** · **[Xi'an Jiaotong University College of Artificial Intelligence]**
+**Xiangru Yin** — xiangruyin@stu.xjtu.edu.cn · State Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, Shaanxi, China
 
-*(Placeholders in `[brackets]` are to be filled in before public release.)*
+**Corresponding author** — Ping Wei, pingwei@xjtu.edu.cn
+
+*(Remaining items — repository DOIs and the data licence — will be filled in before public release.)*
