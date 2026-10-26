@@ -142,7 +142,7 @@ Full details are in the paper's **Materials and Methods** and the **Supplementar
 
 ## Access
 
-- **During peer review:** request private access links from the corresponding author, **[corresponding author]**, at **[email]**.
+- **During peer review:** request private access links from the corresponding author, **Ping Wei**, at **pingwei@xjtu.edu.cn**.
 - **Upon publication:** available at **[https://github.com/xiangru-yin/decidegen-dataset](https://github.com/xiangru-yin/decidegen-dataset)**.
 
 ---
