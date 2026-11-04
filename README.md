@@ -3,7 +3,7 @@
 [![status](https://img.shields.io/badge/status-prepared%20·%20release%20deferred-orange)]()
 [![license](https://img.shields.io/badge/license-%5Bto%20be%20set%5D-lightgrey)]()
 
-Companion dataset for **Simulating Social Media as It Unfolds: Faithful Collective Dynamics Emerge from Individual Behavioural Alignment** — *submitted to Science Advances*, 2026.
+Companion dataset for **Simulating Social Media as It Unfolds: Faithful Collective Dynamics Emerge from Individual Behavioural Alignment** — *submitted to Nature Human Behaviour*, 2026.
 The corpus supports the study of how *individual* user behaviour aggregates into *collective* information propagation on social media: it links each observed action to the actor's profile, historical expressions, and the upstream content it derives from, and provides the supervisory labels used to train the **DecideGen** agents and drive the **Context-Constrained Social Simulator (CCSS)**.
 
 Code released alongside this dataset: **[decidegen-code](https://github.com/xiangru-yin/decidegen-code)**.
@@ -155,7 +155,7 @@ If you use this dataset, please cite the paper:
 @article{yin2026decidegen,
   title   = {Simulating Social Media as It Unfolds: Faithful Collective Dynamics Emerge from Individual Behavioural Alignment},
   author  = {Yin, Xiangru and Li, Huan and Tong, Shiyu and Chen, Zizhao and Ran, Shuyang and Zheng, Nanning and Wei, Ping},
-  journal = {Science Advances},
+  journal = {Nature Human Behaviour},
   year    = {2026},
   note    = {Under review},
   doi     = {[DOI — to be added upon publication]}
